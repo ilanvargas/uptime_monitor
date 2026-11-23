@@ -1,0 +1,14 @@
+#Python generated
+__pycache__/
+*.pyc
+
+#env
+.env
+.env.*
+.venv/
+
+#Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
