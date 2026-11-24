@@ -6,7 +6,15 @@ authors = [
     { name = "Ilan Vargas", email = "ilanv68@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "alembic>=1.20.1",
+    "fastapi>=0.165.0",
+    "httpx2>=2.16.2",
+    "prometheus-client>=0.26.0",
+    "pydantic-settings>=2.16.3",
+    "sqlalchemy>=2.1.9",
+    "uvicorn>=0.54.0",
+]
 
 [project.scripts]
 uptime-monitor = "uptime_monitor:main"
